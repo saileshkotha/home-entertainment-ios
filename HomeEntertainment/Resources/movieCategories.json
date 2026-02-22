@@ -1,0 +1,1731 @@
+[
+    {
+        "id": 14,
+        "name": "TELUGU MOVIES | LATEST",
+        "censored": false
+    },
+    {
+        "id": 283,
+        "name": "TELUGU MOVIES | 4K UHD",
+        "censored": false
+    },
+    {
+        "id": 200,
+        "name": "TELUGU MOVIES | CAM",
+        "censored": false
+    },
+    {
+        "id": 13,
+        "name": "TELUGU MOVIES | COLLECTION",
+        "censored": false
+    },
+    {
+        "id": 41,
+        "name": "TELUGU MOVIES | DUBBED",
+        "censored": false
+    },
+    {
+        "id": 7,
+        "name": "TELUGU | TV SHOWS",
+        "censored": false
+    },
+    {
+        "id": 40,
+        "name": "TELUGU | WEB SERIES",
+        "censored": false
+    },
+    {
+        "id": 81,
+        "name": "TELUGU | KIDS",
+        "censored": false
+    },
+    {
+        "id": 20,
+        "name": "ENGLISH | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "28",
+                "name": "Action"
+            },
+            {
+                "id": "95",
+                "name": "Comedy"
+            },
+            {
+                "id": "96",
+                "name": "Western"
+            },
+            {
+                "id": "97",
+                "name": "Crime"
+            },
+            {
+                "id": "99",
+                "name": "Drama"
+            },
+            {
+                "id": "101",
+                "name": "Science Fiction"
+            },
+            {
+                "id": "102",
+                "name": "Reality"
+            },
+            {
+                "id": "103",
+                "name": "Action & Adventure"
+            },
+            {
+                "id": "104",
+                "name": "Fantasy"
+            },
+            {
+                "id": "120",
+                "name": "Documentary"
+            },
+            {
+                "id": "121",
+                "name": "Mystery"
+            },
+            {
+                "id": "133",
+                "name": "News"
+            },
+            {
+                "id": "134",
+                "name": "Talk"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name": "ENGLISH | DOCUMENTARY",
+        "censored": false,
+        "genres": [
+            {
+                "id": "268",
+                "name": "Documentary"
+            },
+            {
+                "id": "690",
+                "name": "Comedy"
+            },
+            {
+                "id": "715",
+                "name": "Science Fiction"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "ENGLISH MOVIES | LATEST",
+        "censored": false,
+        "genres": [
+            {
+                "id": "9",
+                "name": "Action"
+            },
+            {
+                "id": "10",
+                "name": "Adventure"
+            },
+            {
+                "id": "11",
+                "name": "Documentary"
+            },
+            {
+                "id": "12",
+                "name": "Drama"
+            },
+            {
+                "id": "13",
+                "name": "Comedy"
+            },
+            {
+                "id": "14",
+                "name": "Family"
+            },
+            {
+                "id": "15",
+                "name": "Musical"
+            },
+            {
+                "id": "16",
+                "name": "Horror"
+            },
+            {
+                "id": "48",
+                "name": "Romance"
+            },
+            {
+                "id": "50",
+                "name": "Thriller"
+            },
+            {
+                "id": "98",
+                "name": "Crime"
+            },
+            {
+                "id": "105",
+                "name": "News"
+            },
+            {
+                "id": "115",
+                "name": "Animation"
+            },
+            {
+                "id": "124",
+                "name": "History"
+            },
+            {
+                "id": "131",
+                "name": "Science Fiction"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "ENGLISH MOVIES | COLLECTION",
+        "censored": false,
+        "genres": [
+            {
+                "id": "1",
+                "name": "Action"
+            },
+            {
+                "id": "2",
+                "name": "Adventure"
+            },
+            {
+                "id": "3",
+                "name": "Documentary"
+            },
+            {
+                "id": "4",
+                "name": "Drama"
+            },
+            {
+                "id": "5",
+                "name": "Comedy"
+            },
+            {
+                "id": "6",
+                "name": "Family"
+            },
+            {
+                "id": "7",
+                "name": "Musical"
+            },
+            {
+                "id": "8",
+                "name": "Horror"
+            },
+            {
+                "id": "69",
+                "name": "Thriller"
+            },
+            {
+                "id": "106",
+                "name": "Romance"
+            },
+            {
+                "id": "107",
+                "name": "Western"
+            },
+            {
+                "id": "116",
+                "name": "Animation"
+            },
+            {
+                "id": "117",
+                "name": "Crime"
+            },
+            {
+                "id": "125",
+                "name": "Mystery"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "ENGLISH MOVIES | 3D",
+        "censored": false,
+        "genres": [
+            {
+                "id": "108",
+                "name": "Horror"
+            },
+            {
+                "id": "109",
+                "name": "Comedy"
+            },
+            {
+                "id": "110",
+                "name": "Animation"
+            },
+            {
+                "id": "111",
+                "name": "Family"
+            },
+            {
+                "id": "112",
+                "name": "Fantasy"
+            },
+            {
+                "id": "114",
+                "name": "Science Fiction"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "KIDS | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "163",
+                "name": "Kids"
+            },
+            {
+                "id": "337",
+                "name": "Family"
+            },
+            {
+                "id": "340",
+                "name": "Comedy"
+            },
+            {
+                "id": "343",
+                "name": "Animation"
+            },
+            {
+                "id": "346",
+                "name": "Crime"
+            },
+            {
+                "id": "349",
+                "name": "Action"
+            },
+            {
+                "id": "352",
+                "name": " Adventure"
+            },
+            {
+                "id": "355",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "KIDS | RHYTHM",
+        "censored": false,
+        "genres": [
+            {
+                "id": "432",
+                "name": "kids"
+            },
+            {
+                "id": "437",
+                "name": "family"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "KIDS | MOVIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "17",
+                "name": "Action"
+            },
+            {
+                "id": "18",
+                "name": "Adventure"
+            },
+            {
+                "id": "19",
+                "name": "Drama"
+            },
+            {
+                "id": "20",
+                "name": "Comedy"
+            },
+            {
+                "id": "21",
+                "name": "Family"
+            },
+            {
+                "id": "22",
+                "name": "Musical"
+            },
+            {
+                "id": "23",
+                "name": "Horror"
+            },
+            {
+                "id": "269",
+                "name": "Animation"
+            },
+            {
+                "id": "835",
+                "name": "Documentary"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "HINDI | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "29",
+                "name": "Drama"
+            },
+            {
+                "id": "38",
+                "name": "Mythology"
+            },
+            {
+                "id": "39",
+                "name": "Talk Show"
+            },
+            {
+                "id": "40",
+                "name": "Reality show"
+            },
+            {
+                "id": "57",
+                "name": "Horror"
+            },
+            {
+                "id": "58",
+                "name": "Romance"
+            },
+            {
+                "id": "66",
+                "name": "Comedy"
+            },
+            {
+                "id": "68",
+                "name": "Crime"
+            },
+            {
+                "id": "70",
+                "name": "Thriller"
+            },
+            {
+                "id": "71",
+                "name": "Historic"
+            },
+            {
+                "id": "72",
+                "name": "Devotional"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "HINDI | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "36",
+                "name": "Drama"
+            },
+            {
+                "id": "129",
+                "name": "War"
+            },
+            {
+                "id": "130",
+                "name": "Politics"
+            },
+            {
+                "id": "285",
+                "name": "Mystery"
+            },
+            {
+                "id": "288",
+                "name": "Crime"
+            },
+            {
+                "id": "291",
+                "name": "Action"
+            },
+            {
+                "id": "294",
+                "name": "Horror"
+            },
+            {
+                "id": "297",
+                "name": "Romance"
+            },
+            {
+                "id": "404",
+                "name": "Comedy"
+            },
+            {
+                "id": "409",
+                "name": "Family"
+            },
+            {
+                "id": "446",
+                "name": "Thriller"
+            },
+            {
+                "id": "1017",
+                "name": "18+"
+            },
+            {
+                "id": "1030",
+                "name": "Documentary"
+            },
+            {
+                "id": "1035",
+                "name": "History"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name": "HINDI | DUB WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "927",
+                "name": "Drama"
+            },
+            {
+                "id": "932",
+                "name": "Romance"
+            },
+            {
+                "id": "937",
+                "name": "Crime"
+            },
+            {
+                "id": "942",
+                "name": "Thriller"
+            },
+            {
+                "id": "947",
+                "name": "Mystery"
+            },
+            {
+                "id": "952",
+                "name": "Action"
+            },
+            {
+                "id": "957",
+                "name": "Horror"
+            },
+            {
+                "id": "962",
+                "name": "Adventure"
+            },
+            {
+                "id": "967",
+                "name": "Science Fiction"
+            },
+            {
+                "id": "972",
+                "name": "Fantasy"
+            },
+            {
+                "id": "977",
+                "name": "Comedy"
+            },
+            {
+                "id": "982",
+                "name": "Documentry"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "HINDI | KIDS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "158",
+                "name": "Drama"
+            },
+            {
+                "id": "159",
+                "name": "Animation"
+            },
+            {
+                "id": "160",
+                "name": "Comedy"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "HINDI | COMEDY",
+        "censored": false,
+        "genres": [
+            {
+                "id": "166",
+                "name": "Comedy"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "HINDI MOVIES | LATEST",
+        "censored": false,
+        "genres": [
+            {
+                "id": "79",
+                "name": "Action"
+            },
+            {
+                "id": "122",
+                "name": "Romance"
+            },
+            {
+                "id": "123",
+                "name": "Drama"
+            },
+            {
+                "id": "174",
+                "name": "Horror"
+            },
+            {
+                "id": "180",
+                "name": "Thriller"
+            },
+            {
+                "id": "283",
+                "name": "Mystery"
+            },
+            {
+                "id": "382",
+                "name": "Comedy"
+            },
+            {
+                "id": "710",
+                "name": "Science Fiction"
+            },
+            {
+                "id": "873",
+                "name": "Crime"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "HINDI MOVIES | COLLECTION",
+        "censored": false,
+        "genres": [
+            {
+                "id": "46",
+                "name": "Dramas"
+            },
+            {
+                "id": "78",
+                "name": "Action"
+            },
+            {
+                "id": "451",
+                "name": "Mystery"
+            },
+            {
+                "id": "456",
+                "name": "Thriller"
+            },
+            {
+                "id": "461",
+                "name": "Romance"
+            },
+            {
+                "id": "820",
+                "name": "Family"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "HINDI DUBBED | ENGLISH",
+        "censored": false,
+        "genres": [
+            {
+                "id": "24",
+                "name": "Clips"
+            },
+            {
+                "id": "25",
+                "name": "Concerts"
+            },
+            {
+                "id": "80",
+                "name": "Action"
+            },
+            {
+                "id": "118",
+                "name": "Drama"
+            },
+            {
+                "id": "119",
+                "name": "Family"
+            },
+            {
+                "id": "126",
+                "name": "Romance"
+            },
+            {
+                "id": "127",
+                "name": "Comedy"
+            },
+            {
+                "id": "128",
+                "name": "Thriller"
+            },
+            {
+                "id": "132",
+                "name": "War"
+            },
+            {
+                "id": "695",
+                "name": "Horror"
+            },
+            {
+                "id": "700",
+                "name": "Science Fiction"
+            },
+            {
+                "id": "730",
+                "name": "Crime"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "HINDI DUBBED | SOUTH",
+        "censored": false,
+        "genres": [
+            {
+                "id": "164",
+                "name": "Drama"
+            },
+            {
+                "id": "165",
+                "name": "Action"
+            },
+            {
+                "id": "210",
+                "name": "Crime"
+            },
+            {
+                "id": "216",
+                "name": "Romance"
+            },
+            {
+                "id": "222",
+                "name": "Thriller"
+            },
+            {
+                "id": "595",
+                "name": "Horror"
+            },
+            {
+                "id": "888",
+                "name": "Comedy"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "HINDU | RELIGIOUS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "149",
+                "name": "Religious"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "PUNJABI | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "93",
+                "name": "Drama"
+            },
+            {
+                "id": "735",
+                "name": "Cookery"
+            },
+            {
+                "id": "740",
+                "name": "Reality"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "PUNJABI | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "161",
+                "name": "Drama"
+            },
+            {
+                "id": "441",
+                "name": "Thriller"
+            },
+            {
+                "id": "1002",
+                "name": "Romance"
+            },
+            {
+                "id": "1007",
+                "name": "Mystery"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "PUNJABI | LATEST",
+        "censored": false,
+        "genres": [
+            {
+                "id": "77",
+                "name": "Comedy"
+            },
+            {
+                "id": "81",
+                "name": "Action"
+            },
+            {
+                "id": "100",
+                "name": "Romance"
+            },
+            {
+                "id": "385",
+                "name": "Drama"
+            },
+            {
+                "id": "987",
+                "name": "Thriller"
+            },
+            {
+                "id": "992",
+                "name": "Politics"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "PUNJABI | COLLECTION",
+        "censored": false,
+        "genres": [
+            {
+                "id": "167",
+                "name": "Drama"
+            },
+            {
+                "id": "168",
+                "name": "Action"
+            },
+            {
+                "id": "169",
+                "name": "Romance"
+            },
+            {
+                "id": "170",
+                "name": "Comedy"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "PUNJABI | RELIGIOUS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "148",
+                "name": "Religious"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "URDU | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "37",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "URDU | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "157",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name": "URDU | STAGE SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "386",
+                "name": "Drama"
+            },
+            {
+                "id": "389",
+                "name": "Comedy"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "URDU | MOVIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "82",
+                "name": "Action"
+            },
+            {
+                "id": "358",
+                "name": "Drama"
+            },
+            {
+                "id": "361",
+                "name": "Romance"
+            },
+            {
+                "id": "364",
+                "name": "Thriller"
+            },
+            {
+                "id": "367",
+                "name": "Comedy"
+            },
+            {
+                "id": "370",
+                "name": "Adventure"
+            },
+            {
+                "id": "373",
+                "name": "Animation"
+            },
+            {
+                "id": "376",
+                "name": "Crime"
+            },
+            {
+                "id": "840",
+                "name": "Mystery"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "GUJARATI | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "142",
+                "name": "Drama"
+            },
+            {
+                "id": "143",
+                "name": "Action"
+            },
+            {
+                "id": "144",
+                "name": "Romance"
+            },
+            {
+                "id": "145",
+                "name": "Horror"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "GUJARATI | NATAK",
+        "censored": false,
+        "genres": [
+            {
+                "id": "155",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "GUJARATI | MOVIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "87",
+                "name": "Action"
+            },
+            {
+                "id": "520",
+                "name": "Drama"
+            },
+            {
+                "id": "525",
+                "name": "Thriller"
+            },
+            {
+                "id": "530",
+                "name": "Crime"
+            },
+            {
+                "id": "535",
+                "name": "Family"
+            },
+            {
+                "id": "540",
+                "name": "Adventure"
+            },
+            {
+                "id": "545",
+                "name": "Comedy"
+            },
+            {
+                "id": "550",
+                "name": "Documentary"
+            },
+            {
+                "id": "555",
+                "name": "Horror"
+            },
+            {
+                "id": "560",
+                "name": "Mystery"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "GUJARATI | RELIGIOUS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "154",
+                "name": "Religious"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "TAMIL | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "31",
+                "name": "Drama"
+            },
+            {
+                "id": "60",
+                "name": "Entertainment"
+            },
+            {
+                "id": "61",
+                "name": "Reality"
+            },
+            {
+                "id": "62",
+                "name": "Comedy"
+            },
+            {
+                "id": "63",
+                "name": "Thriller"
+            },
+            {
+                "id": "64",
+                "name": "Family"
+            },
+            {
+                "id": "65",
+                "name": "Game"
+            },
+            {
+                "id": "73",
+                "name": "Devotional"
+            },
+            {
+                "id": "83",
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "TAMIL | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "138",
+                "name": "Drama"
+            },
+            {
+                "id": "139",
+                "name": "Action"
+            },
+            {
+                "id": "414",
+                "name": "Romance"
+            },
+            {
+                "id": "419",
+                "name": "Thriller"
+            },
+            {
+                "id": "424",
+                "name": "Crime"
+            },
+            {
+                "id": "429",
+                "name": "Family"
+            },
+            {
+                "id": "466",
+                "name": "Mystery"
+            },
+            {
+                "id": "590",
+                "name": "Comedy"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name": "TAMIL | COMEDY",
+        "censored": false,
+        "genres": [
+            {
+                "id": "480",
+                "name": "Drama"
+            },
+            {
+                "id": "485",
+                "name": "Comedy"
+            },
+            {
+                "id": "490",
+                "name": "Family"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "TAMIL | KIDS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "162",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "TAMIL MOVIES | LATEST",
+        "censored": false,
+        "genres": [
+            {
+                "id": "52",
+                "name": "Thriller"
+            },
+            {
+                "id": "84",
+                "name": "Action"
+            },
+            {
+                "id": "393",
+                "name": "Comedy"
+            },
+            {
+                "id": "398",
+                "name": "Romance"
+            },
+            {
+                "id": "705",
+                "name": "Crime"
+            },
+            {
+                "id": "720",
+                "name": "Drama"
+            },
+            {
+                "id": "843",
+                "name": "Mystery"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "TAMIL MOVIES | COLLECTION",
+        "censored": false,
+        "genres": [
+            {
+                "id": "88",
+                "name": "Action"
+            },
+            {
+                "id": "495",
+                "name": "Drama"
+            },
+            {
+                "id": "500",
+                "name": "Thriller"
+            },
+            {
+                "id": "505",
+                "name": "Romance"
+            },
+            {
+                "id": "510",
+                "name": "Family"
+            },
+            {
+                "id": "515",
+                "name": "Crime"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "TAMIL MOVIES | DUBBED",
+        "censored": false,
+        "genres": [
+            {
+                "id": "85",
+                "name": "Action"
+            },
+            {
+                "id": "625",
+                "name": "Adventure"
+            },
+            {
+                "id": "630",
+                "name": "War"
+            },
+            {
+                "id": "635",
+                "name": "Drama"
+            },
+            {
+                "id": "640",
+                "name": "Thriller"
+            },
+            {
+                "id": "645",
+                "name": "Crime"
+            },
+            {
+                "id": "650",
+                "name": "Mystery"
+            },
+            {
+                "id": "725",
+                "name": "Romance"
+            },
+            {
+                "id": "795",
+                "name": "History"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name": "SINHALA | TV SHOWS",
+        "censored": false,
+        "genres": []
+    },
+    {
+        "id": 75,
+        "name": "SINHALA | COLLECTION",
+        "censored": false,
+        "genres": [
+            {
+                "id": "267",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "MALAYALAM | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "35",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "MALAYALAM | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "153",
+                "name": "Drama"
+            },
+            {
+                "id": "745",
+                "name": "Crime"
+            },
+            {
+                "id": "750",
+                "name": "Action"
+            },
+            {
+                "id": "755",
+                "name": "Thriller"
+            },
+            {
+                "id": "760",
+                "name": "War"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "MALAYALAM | LATEST",
+        "censored": false,
+        "genres": [
+            {
+                "id": "75",
+                "name": "Action"
+            },
+            {
+                "id": "276",
+                "name": "Comedy"
+            },
+            {
+                "id": "309",
+                "name": "Horror"
+            },
+            {
+                "id": "312",
+                "name": "Drama"
+            },
+            {
+                "id": "315",
+                "name": "Romance"
+            },
+            {
+                "id": "318",
+                "name": "Thriller"
+            },
+            {
+                "id": "334",
+                "name": "Mystery"
+            },
+            {
+                "id": "868",
+                "name": "Family"
+            },
+            {
+                "id": "883",
+                "name": "Crime"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "MALAYALAM | COLLECTION",
+        "censored": false,
+        "genres": [
+            {
+                "id": "89",
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "MALAYALAM | DUBBED",
+        "censored": false,
+        "genres": [
+            {
+                "id": "151",
+                "name": "Drama"
+            },
+            {
+                "id": "600",
+                "name": "Action"
+            },
+            {
+                "id": "605",
+                "name": "Thriller"
+            },
+            {
+                "id": "610",
+                "name": "Crime"
+            },
+            {
+                "id": "615",
+                "name": "Family"
+            },
+            {
+                "id": "620",
+                "name": "Horror"
+            },
+            {
+                "id": "780",
+                "name": "Comedy"
+            },
+            {
+                "id": "853",
+                "name": "Mystery"
+            },
+            {
+                "id": "878",
+                "name": "Romance"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "MARATHI | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "32",
+                "name": "Drama"
+            },
+            {
+                "id": "74",
+                "name": "Reality show"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "MARATHI | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "141",
+                "name": "Drama"
+            },
+            {
+                "id": "903",
+                "name": "Mystery"
+            },
+            {
+                "id": "908",
+                "name": "Crime"
+            },
+            {
+                "id": "913",
+                "name": "Action"
+            },
+            {
+                "id": "918",
+                "name": "War"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "MARATHI | MOVIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "54",
+                "name": " Drama"
+            },
+            {
+                "id": "86",
+                "name": "Action"
+            },
+            {
+                "id": "565",
+                "name": "Comedy"
+            },
+            {
+                "id": "570",
+                "name": "Thriller"
+            },
+            {
+                "id": "575",
+                "name": "Mystery"
+            },
+            {
+                "id": "580",
+                "name": "Crime"
+            },
+            {
+                "id": "585",
+                "name": "Family"
+            },
+            {
+                "id": "815",
+                "name": "Horror"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "KANNADA | TV SHOWS ",
+        "censored": false,
+        "genres": [
+            {
+                "id": "30",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "KANNADA | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "152",
+                "name": "Drama"
+            },
+            {
+                "id": "765",
+                "name": "Crime"
+            },
+            {
+                "id": "770",
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "KANNADA | MOVIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "92",
+                "name": "Action"
+            },
+            {
+                "id": "655",
+                "name": "Drama"
+            },
+            {
+                "id": "660",
+                "name": "Romance"
+            },
+            {
+                "id": "665",
+                "name": "Thriller"
+            },
+            {
+                "id": "670",
+                "name": "Comedy"
+            },
+            {
+                "id": "675",
+                "name": "Crime"
+            },
+            {
+                "id": "680",
+                "name": "Family"
+            },
+            {
+                "id": "685",
+                "name": "Horror"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "KANNADA | DUBBED",
+        "censored": false,
+        "genres": [
+            {
+                "id": "150",
+                "name": "Drama"
+            },
+            {
+                "id": "785",
+                "name": "Comedy"
+            },
+            {
+                "id": "790",
+                "name": "Horror"
+            },
+            {
+                "id": "805",
+                "name": "Romance"
+            },
+            {
+                "id": "810",
+                "name": "Action"
+            },
+            {
+                "id": "858",
+                "name": "Crime"
+            },
+            {
+                "id": "863",
+                "name": "Mystery"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "BANGLA | TV SHOWS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "34",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "BANGLA | NATOK",
+        "censored": false,
+        "genres": [
+            {
+                "id": "225",
+                "name": "Drama"
+            },
+            {
+                "id": "231",
+                "name": "Comedy"
+            },
+            {
+                "id": "237",
+                "name": "Thriller"
+            },
+            {
+                "id": "243",
+                "name": "Suspense"
+            },
+            {
+                "id": "249",
+                "name": "Romance"
+            },
+            {
+                "id": "255",
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "BANGLA | WEB SERIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "140",
+                "name": "Drama"
+            },
+            {
+                "id": "893",
+                "name": "Mystery"
+            },
+            {
+                "id": "898",
+                "name": "Documentary"
+            },
+            {
+                "id": "997",
+                "name": "Comedy"
+            },
+            {
+                "id": "1022",
+                "name": "Action"
+            },
+            {
+                "id": "1027",
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "BANGLA | MOVIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "33",
+                "name": "Action"
+            },
+            {
+                "id": "41",
+                "name": "Romance"
+            },
+            {
+                "id": "43",
+                "name": "Drama"
+            },
+            {
+                "id": "47",
+                "name": "Musicle"
+            },
+            {
+                "id": "49",
+                "name": "Family"
+            },
+            {
+                "id": "51",
+                "name": "Comedy"
+            },
+            {
+                "id": "53",
+                "name": "Thriller"
+            },
+            {
+                "id": "919",
+                "name": "Crime"
+            },
+            {
+                "id": "924",
+                "name": "Mystery"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "FRENCH | MOVIES",
+        "censored": false,
+        "genres": [
+            {
+                "id": "156",
+                "name": "Drama"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "SPORTING EVENTS",
+        "censored": false,
+        "genres": [
+            {
+                "id": "94",
+                "name": "Action"
+            },
+            {
+                "id": "379",
+                "name": "Sports"
+            }
+        ]
+    }
+]
