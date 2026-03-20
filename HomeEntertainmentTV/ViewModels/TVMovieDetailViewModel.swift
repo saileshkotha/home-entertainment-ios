@@ -14,8 +14,20 @@ final class TVMovieDetailViewModel {
     var isDownloading = false
     var error: String?
     var playURL: URL?
+    var playbackFileId: Int?
+    var playbackStartTime: Double = 0
+    var movieResumeProgress: PlaybackProgress?
 
     private var loadTask: Task<Void, Never>?
+
+    var canResumeMovie: Bool {
+        PlaybackProgressStore.shouldOfferResume(movieResumeProgress)
+    }
+
+    var resumeLabelPercent: Int? {
+        guard let progress = movieResumeProgress, canResumeMovie else { return nil }
+        return Int((progress.percent * 100).rounded())
+    }
 
     func load(movieId: Int) {
         loadTask?.cancel()
@@ -27,6 +39,9 @@ final class TVMovieDetailViewModel {
                 let m = try await MovieService.getMovie(id: movieId)
                 guard !Task.isCancelled else { return }
                 movie = m
+                if !m.isTvSeries, let fileId = m.files.first?.id {
+                    movieResumeProgress = PlaybackProgressStore.progress(forMovieFileId: fileId)
+                }
 
                 async let coverTask: Void = loadCover(path: m.cover)
                 async let seasonsTask: Void = {
@@ -60,13 +75,26 @@ final class TVMovieDetailViewModel {
         }
     }
 
-    func play(movieId: Int, fileId: Int) {
+    func refreshMovieResumeProgress() {
+        guard let movie, !movie.isTvSeries, let fileId = movie.files.first?.id else {
+            movieResumeProgress = nil
+            return
+        }
+        movieResumeProgress = PlaybackProgressStore.progress(forMovieFileId: fileId)
+    }
+
+    func play(movieId: Int, fileId: Int, startTime: Double = 0) {
         Task { @MainActor in
             isLoadingLink = true
+            playURL = nil
+            playbackFileId = nil
+            playbackStartTime = 0
             do {
                 let url = try await MovieService.getLink(movieId: movieId, fileId: fileId)
                 link = url
                 if let parsed = URL(string: url) {
+                    playbackFileId = fileId
+                    playbackStartTime = max(0, startTime)
                     playURL = parsed
                 }
             } catch {
@@ -105,6 +133,9 @@ final class TVMovieDetailViewModel {
         coverImage = nil
         link = nil
         playURL = nil
+        playbackFileId = nil
+        playbackStartTime = 0
+        movieResumeProgress = nil
         error = nil
         isLoading = false
         isLoadingLink = false

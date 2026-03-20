@@ -58,9 +58,11 @@ struct MovieDetailView: View {
                 focus = movie.isTvSeries && !vm.seasons.isEmpty ? .firstSeason : .play
             }
         }
-        .fullScreenCover(isPresented: $showPlayer) {
-            if let url = vm.playURL {
-                VideoPlayerView(url: url)
+        .fullScreenCover(isPresented: $showPlayer, onDismiss: {
+            vm.refreshMovieResumeProgress()
+        }) {
+            if let url = vm.playURL, let fileId = vm.playbackFileId {
+                VideoPlayerView(url: url, fileId: fileId, startTime: vm.playbackStartTime)
             }
         }
         .overlay(alignment: .top) {
@@ -241,19 +243,53 @@ struct MovieDetailView: View {
     @ViewBuilder
     private func actionButtons(movie: Movie, file: MediaFile) -> some View {
         HStack(spacing: 14) {
-            Button {
-                vm.play(movieId: movie.id, fileId: file.id)
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    if vm.playURL != nil { showPlayer = true }
+            if let resumePercent = vm.resumeLabelPercent {
+                Button {
+                    vm.play(
+                        movieId: movie.id,
+                        fileId: file.id,
+                        startTime: vm.movieResumeProgress?.positionSeconds ?? 0
+                    )
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                        if vm.playURL != nil { showPlayer = true }
+                    }
+                } label: {
+                    Label("Resume from \(resumePercent)%", systemImage: "play.fill")
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .frame(minWidth: 180)
                 }
-            } label: {
-                Label("Play", systemImage: "play.fill")
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .frame(minWidth: 110)
+                .focused($focus, equals: .play)
+                .disabled(vm.isLoadingLink)
+
+                Button {
+                    vm.play(movieId: movie.id, fileId: file.id, startTime: 0)
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                        if vm.playURL != nil { showPlayer = true }
+                    }
+                } label: {
+                    Label("Play from Start", systemImage: "gobackward")
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .frame(minWidth: 180)
+                }
+                .focused($focus, equals: .play)
+                .disabled(vm.isLoadingLink)
+            } else {
+                Button {
+                    vm.play(movieId: movie.id, fileId: file.id)
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                        if vm.playURL != nil { showPlayer = true }
+                    }
+                } label: {
+                    Label("Play", systemImage: "play.fill")
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .frame(minWidth: 110)
+                }
+                .focused($focus, equals: .play)
+                .disabled(vm.isLoadingLink)
             }
-            .focused($focus, equals: .play)
-            .disabled(vm.isLoadingLink)
 
             Button {
                 vm.downloadToPlex(
