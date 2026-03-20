@@ -89,6 +89,10 @@ final class TVMovieDetailViewModel {
             playURL = nil
             playbackFileId = nil
             playbackStartTime = 0
+            if startTime <= 0 {
+                PlaybackProgressStore.clearMovieProgress(fileId: fileId)
+                movieResumeProgress = nil
+            }
             do {
                 let url = try await MovieService.getLink(movieId: movieId, fileId: fileId)
                 link = url

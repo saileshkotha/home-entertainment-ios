@@ -24,8 +24,7 @@ struct VideoPlayerView: View {
                 configurePlayback()
             }
             .onDisappear {
-                persistProgress()
-                removeTimeObserverIfNeeded()
+                stopPlayback()
             }
             .onReceive(NotificationCenter.default.publisher(for: .AVPlayerItemDidPlayToEndTime)) { notification in
                 guard notification.object as? AVPlayerItem === player.currentItem else { return }
@@ -49,6 +48,13 @@ struct VideoPlayerView: View {
         }
 
         player.play()
+    }
+
+    private func stopPlayback() {
+        persistProgress()
+        removeTimeObserverIfNeeded()
+        player.pause()
+        player.replaceCurrentItem(with: nil)
     }
 
     private func persistProgress() {

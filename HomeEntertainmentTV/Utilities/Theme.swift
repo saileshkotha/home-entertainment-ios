@@ -43,7 +43,10 @@ enum PlaybackProgressStore {
             return
         }
 
-        guard positionSeconds >= minSavedPosition else { return }
+        guard positionSeconds >= minSavedPosition, percent >= minResumePercent else {
+            clearMovieProgress(fileId: fileId)
+            return
+        }
 
         let progress = PlaybackProgress(
             fileId: fileId,
